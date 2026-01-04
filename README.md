@@ -1,44 +1,100 @@
-#Smart Task Manager (DSA using C)
+Smart Task Manager using C (DSA)
+About the Project:
 
-📌 Project Overview
+This project is a menu-driven Smart Task Manager written in C.
+I built this project to understand how Data Structures and Algorithms can be used in a simple real-life application like managing tasks.
 
-The Smart Task Manager is a command-line based application developed in C, designed to help users manage their daily tasks efficiently. This project focuses on applying Data Structures and Algorithms (DSA) concepts in a practical, real-world scenario.
+The program allows the user to add tasks, view them, and search for a task based on the given input.
 
-The application allows users to add, view, delete, and manage tasks based on priority, making it a simple yet effective task management system.
+Why I Chose This Project=
+
+While learning DSA in C, I wanted a project that is:
+
+Easy to understand
+
+Practical
+
+Helpful in learning structures, arrays, and searching
+
+A task manager felt like a good example to apply these concepts instead of writing only theory-based programs.
+
+What the Program Can Do:
+
+Add a new task with a priority
+
+Display all the tasks
+
+Search for a task using its ID
+
+Show tasks in a simple menu format
+
+Concepts Used:
+
+Structure (struct) to store task details
+
+Array of structures to store multiple tasks
+
+Linear search to find a task
+
+Bubble sort to arrange tasks by priority
+
+Loops and switch-case for menu handling
+
+How It Works:
+
+The program displays a menu
+
+User selects an option
+
+Based on the choice, the program performs the operation
+
+The menu is shown again until the user exits
+
+How to Run=
+
+Compile the program using GCC:
+
+gcc smart_task_manager.c -o task_manager
 
 
-🎯 Objectives
+Run the program:
 
-To understand and apply core DSA concepts using C
+./task_manager
 
-To build a real-life inspired application using structured programming
+Output:
 
-To practice memory management, user input handling, and control structures in C
+I have uploaded screenshots in this repository which show:
 
+The main menu
 
+Adding tasks
 
-✨ Features
+Viewing tasks
 
-Add new tasks with priority
+Searching for a task
 
-View all existing tasks
+Limitations:
 
-Delete tasks
+The number of tasks is limited because arrays are used
 
-Menu-driven user interface
+Tasks are not saved once the program is closed
 
-Efficient task handling using data structures
+This is a command-line program with no GUI
 
+What I Learned
 
+How to use structures in C:
 
-🧠 Data Structures Used
+How searching and sorting work in a real program
 
-Array: Used to store tasks
+How to design a menu-driven application
 
-Structure (struct): To group task details like description and priority
+How DSA concepts are applied practically
 
-Linear Search: For locating tasks
+Future Improvements:
+*Add delete and update options
+*Use file handling to save tasks
+*Use linked lists instead of arrays
 
-Sorting Logic: To arrange tasks based on priority
-
-
+Author:
+Bindu Shree
